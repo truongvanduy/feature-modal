@@ -1,0 +1,46 @@
+@media screen and (max-width: 845px) {
+  body {
+    height: 1200px;
+  }
+
+  .feature-modal {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature__heading {
+    text-align: center;
+  }
+
+  .feature__item-2 {
+    flex-direction: column;
+  }
+
+  .feature__item {
+    width: 100%;
+  }
+
+  .feature__learn-more {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .feature__learn-more-desc {
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .feature__learn-more-btn {
+    margin-top: 24px;
+  }
+}
